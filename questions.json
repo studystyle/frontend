@@ -1,26 +1,27 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
+    "question": "How would you prefer studying a story?",
+    "choice1": "Audiobooks are where it's at!" ,
+    "choice2": "A normal book is the way to go",
+    "choice3": "Watching a film about it is the best way to get through it",
+    "choice4": "Interactive, with a group, and sharing ideas around to learn",
     "answer": 1
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "If you needed to leave a bad review...",
+    "choice1": "I would call them up and let them know what's up",
+    "choice2": "I would read what reviews they got",
+    "choice3": "Write an email to them",
+    "choice4": "I would go to the store and complain face to face",
     "answer": 3
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+    "question": " If you had to revise for an exam the next day, what resource would you use first?",
+    "choice1": "Watching a topic summary video",
+    "choice2": "Re-reading and rewriting notes",
+    "choice3": "Drawing out diagrams;",
+    "choice4": "Conduct experiments relating to the topic",
     "answer": 4
   }
 ]
+

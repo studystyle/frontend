@@ -1,4 +1,4 @@
-const username = document.getElementById('username');
+/* const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
@@ -27,3 +27,4 @@ saveHighScore = (e) => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('/');
 };
+ */
