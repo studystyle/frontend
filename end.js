@@ -1,3 +1,6 @@
+alert("Your final Vark score is stored in local storage to save to an API later. That value is... "+localStorage.getItem("vark_score"));
+window.localStorage.removeItem('vark_score');
+alert("localStorage is now cleared!")
 /* const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');

@@ -23,8 +23,7 @@ fetch('questions.json')
         console.error(err);
     });
 
-//CONSTANTS
-const CORRECT_BONUS = 10;
+//CONSTANT
 const MAX_QUESTIONS = 3;
 
 startGame = () => {
@@ -37,7 +36,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       //go to the end page
-      return window.location.assign("/end.html");
+      return window.location.assign("./end.html");
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -62,8 +61,6 @@ getNewQuestion = () => {
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
-       
-        
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
@@ -72,24 +69,36 @@ choices.forEach((choice) => {
 
 
         console.log(availableQuesions)
-        const classToApply = 'incorrect';
-            if (selectedAnswer === currentQuestion.answer) {
-                classToApply = 'correct';
-            }
+        
+        const classToApply = 'correct';
 
-            selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.add(classToApply);
 
-            setTimeout(() => {
-                selectedChoice.parentElement.classList.remove(classToApply);
-                getNewQuestion();
-            }, 1000);
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            storeAnswer(selectedAnswer);
+            getNewQuestion();
+        }, 400);
     });
  
 });
 
 
-incrementScore = (num) => {
-    score += num;
-    scoreText.innerText = score;
+storeAnswer = (selectedAnswer) => {
+    // Establish Map to VARK equivalency through map object instantiation
+    const map = new Map();
+    map.set('1', 'V');
+    map.set('2', 'A');
+    map.set('3', 'R');
+    map.set('4', 'K');
+
+    // Check if localStorage object doesn't exists...
+    if (localStorage.getItem("vark_score") === null) {
+        // and if it doesn't, set it
+        window.localStorage.setItem("vark_score", map.get(selectedAnswer))
+    } else {
+        window.localStorage.setItem("vark_score", localStorage.getItem("vark_score") + map.get(selectedAnswer))
+    }
+    
 };
 
