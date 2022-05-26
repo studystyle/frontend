@@ -24,7 +24,7 @@ fetch('questions.json')
     });
 
 //CONSTANT
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 8;
 
 startGame = () => {
     questionCounter = 0;
@@ -36,7 +36,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       //go to the end page
-      return window.location.assign("./end.html");
+      return window.location.assign("./endquiz.html");
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;

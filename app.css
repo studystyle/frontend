@@ -1,5 +1,5 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #023D69;
   font-size: 62.5%;
 }
 
@@ -11,6 +11,40 @@
   color: #333;
 }
 
+ .quizdiscription {
+
+  font-size: 3rem;
+  font-family: 'ABeeZee', sans-serif;
+  color: white;
+  margin-top: -3rem;
+  width: 100%;
+  text-align: center;
+
+}
+
+.resultsdiscription {
+  font-size: 3rem;
+  font-family: 'ABeeZee', sans-serif;
+  color: white;
+  margin-top: -3rem;
+  width: 150%;
+  text-align: center;
+
+}
+
+.quiztitle {
+
+  font-size: 7rem;
+  margin-bottom: 8rem;
+  font-family: 'ABeeZee', sans-serif;
+  background: -webkit-linear-gradient(#FBC841, #45ABD7);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+
+}
+
 h1,
 h2,
 h3,
@@ -20,8 +54,14 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
   margin-bottom: 5rem;
+  background: -webkit-linear-gradient(#FBC841, #45ABD7);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+ 
+
 }
 
 h1 > span {
@@ -31,8 +71,10 @@ h1 > span {
 
 h2 {
   font-size: 4.2rem;
-  margin-bottom: 4rem;
+  font-family: 'ABeeZee', sans-serif;
+  margin-bottom: 1rem;
   font-weight: 700;
+  color:#65C6F4;
 }
 
 h3 {
@@ -40,7 +82,14 @@ h3 {
   font-weight: 500;
 }
 
+
+
+
+
+
+
 /* UTILITIES */
+
 
 .container {
   width: 100vw;
@@ -53,6 +102,10 @@ h3 {
   padding: 2rem;
 }
 
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
 .container > * {
   width: 100%;
 }
@@ -81,15 +134,18 @@ h3 {
 
 /* BUTTONS */
 .btn {
-  font-size: 1.8rem;
-  padding: 1rem 0;
-  width: 20rem;
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 1.80rem;
+  padding: 1.4rem 0;
+  height: 6rem;
+  width: 25rem;
   text-align: center;
   border: 0.1rem solid #56a5eb;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: #56a5eb;
-  background-color: white;
+  margin-top: 2rem;
+  text-decoration: solid;
+  color: white;
+  background-color: #56a5eb;
 }
 
 .btn:hover {

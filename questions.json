@@ -1,24 +1,64 @@
 [
   {
-    "question": "How would you prefer studying a story?",
-    "choice1": "Audiobooks are where it's at!" ,
-    "choice2": "A normal book is the way to go",
-    "choice3": "Watching a film about it is the best way to get through it",
-    "choice4": "Interactive, with a group, and sharing ideas around to learn"
+    "question": "What do you find most distracting?",
+    "choice1": "Clutter" ,
+    "choice2": "Noises (music, people, weather etc.)",
+    "choice3": "Lots of writing",
+    "choice4": "Lots of movement"
   },
   {
-    "question": "If you needed to leave a bad review...",
-    "choice1": "I would call them up and let them know what's up",
-    "choice2": "I would read what reviews they got",
-    "choice3": "Write an email to them",
-    "choice4": "I would go to the store and complain face to face"
+    "question": "How would you most likely spend your holidays?",
+    "choice1": "Watching a movie or TV show ",
+    "choice2": "Listening to music/podcastt",
+    "choice3": "Playing games",
+    "choice4": "Outside, playing sports, physical activities"
   },
   {
     "question": " If you had to revise for an exam the next day, what resource would you use first?",
     "choice1": "Watching a topic summary video",
     "choice2": "Re-reading and rewriting notes",
-    "choice3": "Drawing out diagrams;",
+    "choice3": "Drawing out diagrams",
     "choice4": "Conduct experiments relating to the topic"
+  },
+
+  {
+    "question": "How do you take notes in class",
+    "choice1": "Drawing diagrams and visual representations",
+    "choice2": "Record the lesson",
+    "choice3": "Write down notes from the board",
+    "choice4": "Don’t take notes"
+  },
+
+  {
+    "question": "What would you be told off for in class?",
+    "choice1": "On your phone",
+    "choice2": "Talking in class ",
+    "choice3": "Doodling/reading in class",
+    "choice4": "Running around class"
+  },
+
+  {
+    "question": "Where do you study?",
+    "choice1": "At school",
+    "choice2": "Re-reading and rewriting notes",
+    "choice3": "In a communal area",
+    "choice4": "At home"
+  },
+
+  {
+    "question": "You arrived at school early, what would you do?",
+    "choice1": "Talk with friends ",
+    "choice2": "Re-reading and rewriting notes",
+    "choice3": "Go on your phone, read",
+    "choice4": "Prepare for the school day"
+  },
+
+  {
+    "question": "What would you do when you take a break?",
+    "choice1": "Draw, paint or colour in",
+    "choice2": "Talking to people",
+    "choice3": "Texting someone",
+    "choice4": "Go for a walk "
   }
 ]
 
