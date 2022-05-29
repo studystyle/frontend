@@ -11,6 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
+//Gets qustions from local json file
 fetch('questions.json')
     .then((res) => {
         return res.json();
@@ -48,7 +49,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
   
 
-
+    //Applies choices to html
     choices.forEach(choice => {
       const number = choice.dataset["number"];
       choice.innerText = currentQuestion["choice" + number];
@@ -69,7 +70,8 @@ choices.forEach((choice) => {
 
 
         console.log(availableQuesions)
-        
+
+
         const classToApply = 'correct';
 
         selectedChoice.parentElement.classList.add(classToApply);

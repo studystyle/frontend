@@ -11,39 +11,7 @@
   color: #333;
 }
 
- .quizdiscription {
 
-  font-size: 3rem;
-  font-family: 'ABeeZee', sans-serif;
-  color: white;
-  margin-top: -3rem;
-  width: 100%;
-  text-align: center;
-
-}
-
-.resultsdiscription {
-  font-size: 3rem;
-  font-family: 'ABeeZee', sans-serif;
-  color: white;
-  margin-top: -3rem;
-  width: 150%;
-  text-align: center;
-
-}
-
-.quiztitle {
-
-  font-size: 7rem;
-  margin-bottom: 8rem;
-  font-family: 'ABeeZee', sans-serif;
-  background: -webkit-linear-gradient(#FBC841, #45ABD7);
-  background-clip: border-box;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  
-
-}
 
 h1,
 h2,
@@ -90,6 +58,39 @@ h3 {
 
 /* UTILITIES */
 
+.quizdiscription {
+
+  font-size: 3rem;
+  font-family: 'ABeeZee', sans-serif;
+  color: white;
+  margin-top: -3rem;
+  width: 100%;
+  text-align: center;
+
+}
+
+.resultsdiscription {
+  font-size: 3rem;
+  font-family: 'ABeeZee', sans-serif;
+  color: white;
+  margin-top: -3rem;
+  width: 150%;
+  text-align: center;
+
+}
+
+.quiztitle {
+
+  font-size: 7rem;
+  margin-bottom: 8rem;
+  font-family: 'ABeeZee', sans-serif;
+  background: -webkit-linear-gradient(#FBC841, #45ABD7);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+
+}
 
 .container {
   width: 100vw;
